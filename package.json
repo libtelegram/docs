@@ -1,0 +1,22 @@
+{
+  "name": "libtelegram-docs",
+  "version": "0.0.1",
+  "description": "LibTelegram Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "martiliones",
+    "email": "martiliones@yandex.com"
+  },
+  "repository": "/libtelegram-docs",
+  "scripts": {
+    "dev": "vuepress dev src --host localhost",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "sass-loader": "^10",
+    "vuepress": "^1.5.3",
+    "webpack": "^4.42.0"
+  }
+}
